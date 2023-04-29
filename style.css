@@ -1,0 +1,119 @@
+/*Corpo*/
+body
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin:0;
+	padding: 0;
+	background-color: #ccc;
+}
+
+
+/*Cabecalho*/
+.Cabecalho
+{
+	background: url(/IMG/bg-3.jpg) 
+				no-repeat
+				right bottom;
+	background-size: cover;
+	border-top: 1px solid transparent;
+	height: 600px;
+}
+.Cabecalho-texto
+{	
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.Cabecalho-texto h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 48px;
+	text-shadow: #000 3px 3px 3px;
+	margin-bottom: 4px;
+}
+.Cabecalho-texto h2{
+	color: white;
+	background-color: rgba(0,0,0, .7);
+	padding: 10px;
+	border-radius: 10px;
+	max-width: 600px;
+	min-width: 400px;
+	margin: 1px auto 20px auto;
+	border-bottom: 3px solid white;
+}
+
+
+/*Navegação*/
+.Navegacao ul{
+	margin-top: 25px;
+	list-style: none;
+	text-align: right;
+}
+.Navegacao li{
+	display: inline;
+	margin-right: 15px;
+}
+.Navegacao a{
+	background-color: rgba(0,0,0, .4);
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid white;
+	transition: background-color linear 2s;
+}
+.Navegacao a:hover{
+	background-color: rgba(0,0,0, .7);
+	color: wheat;
+}
+
+
+/*Conteudo*/
+.Main
+{
+	width: 90%;
+	margin: 60px auto;	
+}
+.Sessao1
+{
+	background-color: white;
+	padding: 20px;
+	margin-top: 15px;
+}
+.Sessao1 h3{
+	background-color: #ccc;
+	padding: 10px;
+	border-bottom: 3px solid #6b6b6b;
+}
+.Botao 
+{
+	margin-top: 30px;
+	margin-left: auto;
+}
+.Sessao1 a{
+	background-color: #353333;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px solid #ccc;
+	text-decoration: none;
+	color: white;
+	transition: background-color linear 2s;
+}
+.Sessao1 a:hover{
+	background-color: rgba(0,0,0, .6);
+	color: bisque;
+}
+
+
+/*Rodapé*/
+.Footer
+{
+	background-color: rgba(0,0,0, .6);
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
