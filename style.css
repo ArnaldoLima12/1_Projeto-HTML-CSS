@@ -11,7 +11,7 @@ body
 /*Cabecalho*/
 .Cabecalho
 {
-	background: url("https://arnaldolima12.github.io/1_Projeto-HTML-CSS/IMG/bg-3.jpg") 
+	background: url(https://arnaldolima12.github.io/1_Projeto-HTML-CSS/IMG/bg-3.jpg) 
 				no-repeat
 				right bottom;
 	background-size: cover;
